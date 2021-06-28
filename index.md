@@ -1,8 +1,8 @@
 ---
 layout: page
-title: ""
+title: "Welcome to my home page"
 ---
 
-I'm an assistant professor in the [Linguistics Department](https://www.ling.upenn.edu) at the University of Pennsylvania and the director of the [Child Language Lab](https://childlanglab.com).  
+Hello, I am a junior undergraduate student majored in Honors Mathmematics. I am also a member of Applied Math Lab at NYU Shanghai. Currently, I am working on a project on material dissolving and natural circulation. We are seeking for a model to explain the periodic flow structure as we found during our previous experiment.
 
-I teach a graduate seminar in [psycholinguistics](/ling607), an undergraduate course in [language and the brain](/ling104) and a crossover course in [neurolinguistics](https://public.3.basecamp.com/p/YWZxdZBxNSam92CL6oZQNptm). Occasionally, I also teach [LING 1](/ling001), Penn's Introduction to Linguistics.
+Besides a student, I am also a rock climber. If you are Shanghai and also a climber, you are more than welcomed to contact me to team up and climb some crazy routes, either gym or near by crags. Gear provided!
