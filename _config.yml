@@ -18,11 +18,11 @@ show_sidebar: false        # show a sidebar instead of the usual header
 navigation:
   - {title: "Resume", url: "/Resume_Eleven.pdf", icon: home}
   - {title: "Projects", url: "https://childlanglab.com"}
+  
 
 external:                  # see http://fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "sc7825@nyu.edu"}
   - {title: Github, icon: github, url: "https://github.com/Eleven7825"}
-
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/eleven-chen-388250196/"}
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
