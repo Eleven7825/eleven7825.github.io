@@ -1,0 +1,375 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:方正姚体;
+	panose-1:2 1 6 1 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@方正姚体";}
+@font-face
+	{font-family:"Rockwell Condensed";
+	panose-1:2 6 6 3 5 4 5 2 1 4;}
+@font-face
+	{font-family:Rockwell;
+	panose-1:2 6 6 3 2 2 5 2 4 3;}
+ /* Style Definitions */
+ h2
+	{mso-style-link:"Heading 2 Char";
+	margin:0cm;
+	background:#F1CBF0;
+	border:none;
+	padding:0cm;
+	font-size:10.0pt;
+	font-family:"Rockwell",serif;
+	text-transform:uppercase;
+	letter-spacing:.75pt;
+	font-weight:normal;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	font-size:8.0pt;
+	font-family:"Rockwell",serif;
+	color:#6D1D6A;
+	font-weight:bold;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	font-size:26.0pt;
+	font-family:"Rockwell Condensed",serif;
+	color:#92278F;
+	text-transform:uppercase;
+	letter-spacing:.5pt;}
+a:link, span.MsoHyperlink
+	{font-family:方正姚体;
+	color:#005FCE;}
+p.Text, li.Text, div.Text
+	{mso-style-name:Text;
+	margin-top:10.5pt;
+	margin-right:0cm;
+	margin-bottom:10.5pt;
+	margin-left:0cm;
+	font-size:10.5pt;
+	font-family:"Helvetica",sans-serif;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	text-transform:uppercase;
+	letter-spacing:.75pt;
+	background:#F1CBF0;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Rockwell Condensed",serif;
+	color:#92278F;
+	text-transform:uppercase;
+	letter-spacing:.5pt;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Rockwell",serif;}
+.MsoPapDefault
+	{margin-bottom:4.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 144.0pt 72.0pt 144.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body bgcolor="#EAE5EB" lang=ZH-CN link="#005FCE" vlink="#666699"
+style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoTitle align=center style='text-align:center'><span lang=EN-US>Journeys</span></p>
+
+<div style='border:solid #F1CBF0 3.0pt;padding:0cm 0cm 0cm 0cm;background:#F1CBF0'>
+
+<h2><span lang=EN-US style='color:black'>A simple simulation for Manhattan
+traffic</span></h2>
+
+</div>
+
+<p class=Text><span lang=EN-US>In this project, a simple traffic grid is built
+to mimic the traffic system at Manhattan in New York City. Manhattan has 214
+numbered streets and 11 numbered avenues. The streets go in the East-West
+direction while the avenues go from South-North. The directions here are all
+aligned with the Hudson River. In real Manhattan, some streets and avenues can
+go in both directions. To simplify the problem, only alternating direction one-way
+streets and avenues are considered. The motivation of this project is to have a
+descriptive model to the Manhattan traffic flow and some qualitative insights
+about the capacity of the grid system.</span></p>
+
+<p class=Text><span lang=EN-US><img width=307 height=229 id="figure_0.png"
+src="projects_files/image001.gif">&nbsp;&nbsp; <img width=315 height=232
+id="figure_5.png" src="projects_files/image002.gif"></span></p>
+
+<p class=MsoCaption><span lang=EN-US>Figure </span><span
+lang=EN-US>1</span><span lang=EN-US> Distribution of car number in the system
+with different incoming rate.</span></p>
+
+<p class=MsoCaption><span lang=EN-US>Figure </span><span
+lang=EN-US>2</span><span lang=EN-US> The limit of incoming rate when congestion
+occurs.</span></p>
+
+<p class=Text><b><span lang=EN-US>Project page</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/manhattan">Eleven7825/manhattan: A simple
+simulation for Manhattan traffic </a></span></p>
+
+<p class=Text><b><span lang=EN-US>Report</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/manhattan/blob/main/manhattan.pdf">https://github.com/Eleven7825/manhattan/blob/main/manhattan.pdf</a></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;</span></p>
+
+<div style='border:solid #F1CBF0 3.0pt;padding:0cm 0cm 0cm 0cm;background:#F1CBF0'>
+
+<h2><span lang=EN-US style='color:black'>Comparison Between Non-deterministic
+Model and Deterministic Model for Malaria and Sickle-Cell Hemoglobin Gene</span></h2>
+
+</div>
+
+<p class=Text><span lang=EN-US>In this project, I explore the long-term
+behavior of the Sickle-Cell gene and malaria. I first introduce the
+mathematical model and its implementation in MATLAB. The model has two
+versions-the deterministic version and the non-deterministic version. I find
+that with the default value for initial susceptible, infected and resistant,
+the deterministic model and the non-deterministic model have similar behavior
+while behave differently when the initial infected population is small.
+Moreover, as the infection rate of malaria gets larger, the ratio of resistant
+to malaria also gets larger as the result of natural selection.</span></p>
+
+<p class=Text><span lang=EN-US><img border=0 width=304 height=243
+id="figure_8.png" src="projects_files/image003.gif">&nbsp;&nbsp;&nbsp; <img
+border=0 width=333 height=243 id="figure_13-2.png"
+src="projects_files/image004.gif"></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;(C) <i>As two diseases developed, the
+growth rate</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(D) T<i>he population of susceptible, infected, and</i> </span></p>
+
+<p class=Text><i><span lang=EN-US>&nbsp;for the whole population settled into a
+stable value.</span></i><span lang=EN-US>&nbsp; &nbsp;&nbsp;&nbsp;<i>resistant
+settle down to exponential growth. </i></span></p>
+
+<p class=Text><b><span lang=EN-US>Project page</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/malaria-sickle-cell">https://github.com/Eleven7825/malaria-sickle-cell</a></span></p>
+
+<p class=Text><b><span lang=EN-US>Report</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/malaria-sickle-cell">https://github.com/Eleven7825/malaria-sickle-cell</a></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;</span></p>
+
+<div style='border:solid #F1CBF0 3.0pt;padding:0cm 0cm 0cm 0cm;background:#F1CBF0'>
+
+<h2><span lang=EN-US style='color:black'>Simulated Fungi Decomposition System</span></h2>
+
+</div>
+
+<p class=Text><span lang=EN-US>In order to incorporate the fluctuations of the
+environment into our model, we design the Environment Fungi Coefficient Abstraction
+(EFCA) to quantify the impact of PH, temperature, moisture and light intensity
+to the fungus communities. We set up the environment index to precisely
+determine the growth rate, death rate and decomposition rate of the specific
+fungus community. Based on biological knowledge and mathematical principles, we
+justify the functions we choose for the three rates are suitable through data
+fitting and error testing using MATLAB tool packages.</span></p>
+
+<p class=Text><span lang=EN-US><img border=0 width=633 height=199 id=fungi.jpg
+src="projects_files/image005.jpg"></span></p>
+
+<p class=Text><span lang=EN-US>(E) <i>Two different kinds of fungi compete to
+survive</i></span></p>
+
+<p class=Text><b><span lang=EN-US>Project page:</span></b><span lang=EN-US> <a
+href="https://github.com/Eleven7825/fungi">Eleven7825/fungi: 2021 mcm a </a></span></p>
+
+<p class=Text><b><span lang=EN-US>Report:</span></b><span lang=EN-US> <a
+href="https://github.com/Eleven7825/fungi/blob/main/2112048.pdf">fungi/2112048.pdf
+at main · Eleven7825/fungi</a></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;</span></p>
+
+<div style='border:solid #F1CBF0 3.0pt;padding:0cm 0cm 0cm 0cm;background:#F1CBF0'>
+
+<h2><b><span lang=EN-US style='color:black'>Simulations on Adapted Thomson
+Problem with Different Frames</span></b></h2>
+
+</div>
+
+<p class=Text><span lang=EN-US>Thomson’s problem is determined the ground state
+of N electric charges on constrained in a sphere shell given the repelling
+effect given by Coulomb’s law. By comparing the simulation result and continuum
+theory, M. Bowick et al. find out the crystalline structure in the ground state
+for the Thomson problem. In the meanwhile, Y. Levin and J. J. Arenzon
+generalized the Thomson problem replacing the sphere shell with a sphere. They
+found that with a small amount of charge, the charges are likely to go to the
+surface while for a large amount of charge, there are some charges that stay in
+the middle of the sphere. Our work includes the two-dimensional simulation on
+the Thomson problem and the three-dimensional simulation on the generalized
+Thomson problem. While the original Thomson problem assumes on a sphere shell
+which is a two-dimensional object, we explore the 2d square frame set up. For
+3d simulation, the charges are allowed to move inside of the sphere.</span></p>
+
+<p class=Text><span lang=EN-US><img border=0 width=329 height=255
+id="image_10.png" src="projects_files/image006.jpg">&nbsp;&nbsp; <img border=0
+width=297 height=255 id="image_1-1.png" src="projects_files/image007.jpg"></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;&nbsp;&nbsp; (F) <i>Crystal structure
+electric charges form</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(G) <i>3d simulation result using 12 electrons, each</i></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; <i>in a 2d
+frame.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+vertex represents an electron.</i></span></p>
+
+<p class=Text><b><span lang=EN-US>Project page</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/electron-problem-3d">https://github.com/Eleven7825/electron-problem-3d</a>
+</span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/Eleven7825/electron-problem">https://github.com/Eleven7825/electron-problem</a></span></p>
+
+<p class=Text><b><span lang=EN-US>Report</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/electron-problem-3d/blob/main/electron_problem%2520_final.pdf">https://github.com/Eleven7825/electron-problem-3d/blob/main/electron_problem%20_final.pdf</a></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;</span></p>
+
+<div style='border:solid #F1CBF0 3.0pt;padding:0cm 0cm 0cm 0cm;background:#F1CBF0'>
+
+<h2><b><span lang=EN-US style='color:black'>A Model to Predict the Maximum Car
+Speed in the Rain</span></b></h2>
+
+</div>
+
+<p class=Text><span lang=EN-US>The speed that a car can maintain on rainy days
+depends on many factors. This project will first introduce a model to quantify
+the visibility of the driver using the ratio between the surface area of all
+raindrops on windshield and the area of the windshield. In addition to driver’s
+comfortability of visibility, we also take the sudden brake, sleep-deprived
+driving, road condition and light change, into the safe speed consideration. In
+this project, we build a model to compute the safe speed of the car under
+real-life considerations by combining mathematical and physical knowledge to
+provide a concrete and useful insight into this problem.</span></p>
+
+<p class=Text><span lang=EN-US><img border=0 width=287 height=257
+id="Rf_vs_safe_v_car.png" src="projects_files/image008.jpg">&nbsp;&nbsp; <img
+border=0 width=321 height=267 id="Ss_vs_Rf_v_car.png"
+src="projects_files/image009.jpg"></span></p>
+
+<p class=Text><span lang=EN-US>(H) <i>Our final result - relationship between
+the</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (I) <i>The amount of rain will
+recieve with different car</i> </span></p>
+
+<p class=Text><span lang=EN-US>safe speed and the
+precipitation.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>speeds and precipitations.</i></span></p>
+
+<p class=Text><b><span lang=EN-US>Project Page</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/Rainfall_simulator">https://github.com/Eleven7825/Rainfall_simulator</a></span></p>
+
+<p class=Text><b><span lang=EN-US>Report</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/Rainfall_simulator/blob/main/main.pdf">https://github.com/Eleven7825/Rainfall_simulator/blob/main/main.pdf</a></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;</span></p>
+
+<div style='border:solid #F1CBF0 3.0pt;padding:0cm 0cm 0cm 0cm;background:#F1CBF0'>
+
+<h2><b><span lang=EN-US style='color:black'>A Flop Count Tool with an Example
+in PLU Factorization</span></b></h2>
+
+</div>
+
+<p class=Text><span lang=EN-US>We develop a new flop tool which can help to
+count floating-point operation(flops) in MATLAB/GNU Octave. The first two
+sections describe the flops and PLU factorization. In the following sections,
+we introduce the PLU factorization — a method for solving linear equations. We
+discuss several possible ways to count flops on a PLU factorization script in MATLAB/Octave.
+One way we tried is using the flop tool developed by Hang Qian. Although his
+tool does not give us the correct result due to its limitation on counting
+operations involving varying variable sizes, his code gives the flop count
+formulas we needed in developing the new tool. Our new tool is compatible with
+GNU Octave and it is licensed under GNU LGPL.</span></p>
+
+<p class=Text><b><span lang=EN-US>Report</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/flopTool/blob/master/flop%2520count%2520tool%2520with%2520PLU%2520example.pdf">https://github.com/Eleven7825/flopTool/blob/master/flop20count20tool20withPLUexample.pdf</a></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;</span></p>
+
+<div style='border:solid #F1CBF0 3.0pt;padding:0cm 0cm 0cm 0cm;background:#F1CBF0'>
+
+<h2><b><span lang=EN-US style='color:black'>An Overview on Linear Solvers</span></b></h2>
+
+</div>
+
+<p class=Text><span lang=EN-US>The Conjugate Gradient Method (CG) is a
+prevalent method for solving linear systems. In this report, we include a
+self-contained description of CG and Steepest Descent (SD) without introducing
+Krylov space. We also describe the preconditioning and its application on CG
+(PCG). We then compare SD, CG, PCG by considering their iterations. We find
+that due to roundoff error, the iteration number can go beyond the theoretical
+upper bound for SD. Finally, we compare those gradient methods with PLU
+factorization. The resulting linear solver is given in the conclusion part.</span></p>
+
+<p class=Text><span lang=EN-US><img border=0 width=731 height=299
+id="big_plot-eps-converted-to-1536x661.png" src="projects_files/image010.gif"></span></p>
+
+<p class=Text><span lang=EN-US>(J) <i>Iterations required for CG and SD
+algorithm to converge under different condition numbers</i></span></p>
+
+<p class=Text><b><span lang=EN-US>Report:</span></b><span lang=EN-US> <a
+href="https://github.com/Eleven7825/solveLinearSystem/blob/master/An%2520Overview%2520on%2520Linear%2520Solvers.pdf">https://github.com/Eleven7825/solveLinearSystem/blob/master/AnOverviewonLinearSolvers.pdf</a></span></p>
+
+<p class=Text><span lang=EN-US>&nbsp;</span></p>
+
+<div style='border:solid #F1CBF0 3.0pt;padding:0cm 0cm 0cm 0cm;background:#F1CBF0'>
+
+<h2><b><span lang=EN-US style='color:black'>Finding Few Largest Eigenvalues</span></b></h2>
+
+</div>
+
+<p class=Text><span lang=EN-US>Power Method (PM) allows us to find the largest
+eigenvalue of real square matrices. By changing the algorithm of PM, the
+resulting algorithm – Inverse Power Method (IPM) enables us to find the
+eigenvalues other than the largest one. In this report, we firstly describe the
+IPM and code it in MATLAB/Octave. To test the new function of IPM, we elaborate
+on how IPM allows us to find eigenvalues closest to a point for symmetric matrices.
+We then move on to elaborate on how we find the few largest eigenvalues for
+symmetric matrices using the IPM and the searching scheme we devised. The
+method succeeded in finding all the 10 largest eigenvalues of 30 by 30 random
+symmetric positive matrices in 98.4% sampled randomly.</span></p>
+
+<p class=Text><b><span lang=EN-US>Report</span></b><span lang=EN-US>: <a
+href="https://github.com/Eleven7825/IPM/blob/main/Finding%2520few%2520largest%2520eigenvalues.pdf">https://github.com/Eleven7825/IPM/blob/main/Finding%20few%20largest%20eigenvalues.pdf</a></span></p>
+
+</div>
+
+</body>
+
+</html>
