@@ -17,7 +17,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 navigation:
   - {title: "Resume", url: "/Resume_Eleven.pdf", icon: home}
-  - {title: "Projects", url: "https://childlanglab.com"}
+  - {title: "Projects", url: "/projects"}
   
 
 external:                  # see http://fontawesome.com/icons
