@@ -19,7 +19,7 @@ navigation:
   # - {title: "Resume", url: "/Resume_Eleven.pdf", icon: home}
   - {title: "Projects", url: "/projects"}
   - {title: "Posts", file: "blog.md"}
-  - {title: "gallery", url:"/gallery"}
+  - {title: "gallery", url: "/gallery"}
 
 
 external:                  # see http://fontawesome.com/icons
