@@ -19,7 +19,7 @@ Please read this instruction carefully, failure to follow below steps may result
 
 ## Resources
 Arduino code v1.2:
-'''
+```
 /* The code to control the movement of the slider*/
 /* The version 1.2 starts the glider from the top**/
 
@@ -90,7 +90,7 @@ void loop() {
   delay(interval);
 }
 
-'''
+```
 The control pannel uses Arduino Mega which was produced in China, if your computer connot recognize the arduino, you can download the chinese version Mega usb driver at:
 
-http://www.wch.cn/download/CH341SER_EXE.html
+[http://www.wch.cn/download/CH341SER_EXE.html](http://www.wch.cn/download/CH341SER_EXE.html)
