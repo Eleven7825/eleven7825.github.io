@@ -8,7 +8,7 @@ category: AMLSH
 Please read this instruction carefully, failure to follow below steps may result in motor damage or short circuit.
 
 ## Usage
-1. The system is comprised of a control pannel, a DC power source and a sliding rail. Before connecting the control pannel and the DC power source to the 220v~AC, **make sure that the switch on the control pannel is switched to the middle position(off)** and the DC power power source is also turned to off position.
+1. The system is comprised of a control pannel, a DC power source and a sliding rail. Before connecting the control pannel and the DC power source to the 220v~AC, **make sure that the switch on the control pannel is switched to the middle position(off)** and the DC power power source is also turned to off position, If the platform is not locate at the top end, move it to the top end with your hand, **please do this before the DC power is turned on.**
 
 2. Connect the control pannel and the DC power source to the Ac. Adjust the potentiometer on the control pannel so that the number on the LCD screen is the position you want the platform to be. 
 
@@ -85,12 +85,20 @@ void loop() {
     tone(pul,Pulse*Speed,1000*circle/Speed);
     delay(1000*circle/Speed);
     digitalWrite(dir,LOW);
+
   }
 
   delay(interval);
 }
 
 ```
+
+## Other software
 The control pannel uses Arduino Mega which was produced in China, if your computer connot recognize the arduino, you can download the chinese version Mega usb driver at:
 
 [http://www.wch.cn/download/CH341SER_EXE.html](http://www.wch.cn/download/CH341SER_EXE.html)
+
+## Defualt about microstep driver
+The default power of the microstep diver is 2A and the default ratate speed is 6400 pulse/circle.
+
+
