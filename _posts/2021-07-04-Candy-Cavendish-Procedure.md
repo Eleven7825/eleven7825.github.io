@@ -11,12 +11,12 @@ category: AMLSH
 
 ## Mirror installation
 1. Immerge the glass slide and the screw into the alcohol for several seconds. Using the cleaning tissue to suck up the remaining alcohol. 
-2, Add one drop of 502 glue to one of six sides of the screw. Use a tweezer to pick up the glass slide, and place it on the top of of the 502 glue drop. The botton edge of the screw should be overlapped with the side of the glass slide.
+2. Add one drop of 502 glue to one of six sides of the screw. Use a tweezer to pick up the glass slide, and place it on the top of of the 502 glue drop. The botton edge of the screw should be overlapped with the side of the glass slide.
 3. suck up the remaining 502 glue using cleaning paper. Wait 5 min until the glue gets solified.
 
 ## Candy installation
 1. Install the copper wire first, don't screw the upper screw tight!
-2. Use the thumb and index finger to fix the lower screw of the wire, use the other hand to screw the candy on the lower screw
+2. Use the thumb and index finger to fix the lower screw of the wire, use the other hand to screw the candy on the lower screw.
 
 ## Finding appropriate location for lift platform
 1. Make sure the water level of the container is low enough so that the candy won't touch the water when testing.
