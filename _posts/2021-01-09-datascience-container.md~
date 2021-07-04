@@ -1,5 +1,5 @@
 ---
-title:  "How to analyze data with the jupyter/datascience-notebook"
+title:  "This is a demo post"
 mathjax: true
 author: katie
 category: jupyter
@@ -28,7 +28,7 @@ services:
     environment: 
       - JUPYTER_TOKEN=hi
     volumes:
-      - ./:/home/jovyan/work
+    - ./:/home/jovyan/work
     ports: 
       - 8888:8888
     container_name: datascience-demo
