@@ -16,7 +16,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:
-  - {title: "Resume", url: "/Resume_Eleven.pdf", icon: home}
+  # - {title: "Resume", url: "/Resume_Eleven.pdf", icon: home}
   - {title: "Projects", url: "/projects"}
   
 
