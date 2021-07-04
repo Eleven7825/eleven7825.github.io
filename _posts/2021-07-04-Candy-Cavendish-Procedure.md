@@ -16,7 +16,7 @@ category: AMLSH
 
 ## Candy installation
 1. Install the copper wire first, don't screw the upper screw tight!
-2. Use the thumb and index finger to fix the lower screw of the wire, use the other hand to screw the candy on the lower screw.
+2. Use the thumb and index finger to hold the lower screw of the wire, use the other hand to screw the candy on the lower screw, notice the wire should have some force on it to keep it straight.
 
 ## Finding appropriate location for lift platform
 1. Make sure the water level of the container is low enough so that the candy won't touch the water when testing.
@@ -27,7 +27,7 @@ category: AMLSH
 ## Laser adjustment and camera setting
 1. Lower down the platform using the location find in the last section, donnot add extra water to the container at this time and the candy should be exposed in the air.
 2. Adjust the laser so that the it hits the mirror and bounce back to the center of the screen.
-3. Set up the camera the light spot is on the center of the screen and the camera is horizontal. Check the camera is full of battery and have enough memory.
+3. Set up the camera so that the light spot is on the center of the frame and the camera is horizontal. Check the camera is full of battery and have enough memory.
 
 ## Begin expirement
 1. Add the water to the container until the water level reaches the button of the shield. 
