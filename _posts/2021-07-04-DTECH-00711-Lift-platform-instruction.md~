@@ -1,17 +1,12 @@
 ---
-title:  "This is a demo post"
+title:  "DTECH-00711 Lift platform instruction"
 mathjax: true
-author: Eleven
+author: Eleven Chen
 category: jupyter
 ---
+## Usage
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uIipJX7TfBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Prereqs
-
-You'll need to install [docker](https://docs.docker.com/get-docker/) on your machine. If you want to borrow our docker-compose.yml file, you can copy from this [repository](https://github.com/pennchildlanglab/docker-compose-demo), or clone it using 
-
-```
-git clone https://github.com/pennchildlanglab/docker-compose-demo.git
-```
+1. 
+2. 
+3. 
 
