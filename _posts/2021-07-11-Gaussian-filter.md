@@ -6,7 +6,7 @@ category: AMLSH
 ---
 
 
-Sample rate: 60 frames per second
+## Sample rate: 60 frames per second
 
 
 
@@ -108,7 +108,7 @@ invergaussF(x,[0.357 5.5],1,0.1e3);
 
 ## spectrogram
 
-```matlab:Code
+```
 open("signalProcessing.mldatx")
 ```
 

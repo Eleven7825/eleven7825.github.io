@@ -67,7 +67,7 @@ xlabel('freqency(herz)');
 
 ## Gassian filter
 
-```matlab:Code
+```
 sigma = 5;
 k = -30:.1:30;
 plot(k,exp(-0.5*abs(k).^2/sigma^2));xlabel('freqency(herz)');
