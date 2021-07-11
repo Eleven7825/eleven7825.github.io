@@ -24,7 +24,7 @@ plot(t,x); xlabel('time(s)');ylabel('Displacement(cm)')
 ```
 
 
-![figure_0.png](2021-07-11-Gaussian-filter_images/figure_0.png)
+![figure0.png](2021-07-11-Gaussian-filter_images/figure_0.png)
 
 
 
@@ -37,7 +37,7 @@ plot(t,y); xlabel('time(s)');ylabel('Displacement(cm)')
 ```
 
 
-![figure_1.png](2021-07-11-Gaussian-filter_images/figure_1.png)
+![figure1.png](2021-07-11-Gaussian-filter_images/figure_1.png)
 
 
 
@@ -62,7 +62,7 @@ xlabel('freqency(herz)');
 ```
 
 
-![figure_2.png](2021-07-11-Gaussian-filter_images/figure_2.png)
+![figure2.png](2021-07-11-Gaussian-filter_images/figure_2.png)
 
 ## Gassian filter
 
@@ -73,7 +73,7 @@ plot(k,exp(-0.5*abs(k).^2/sigma^2));xlabel('freqency(herz)');
 ```
 
 
-![figure_3.png](2021-07-11-Gaussian-filter_images/figure_3.png)
+![figure3.png](2021-07-11-Gaussian-filter_images/figure_3.png)
 
 
 ```matlab:Code
@@ -82,7 +82,7 @@ gaussianF(y,1e2); xlabel('time(s)');ylabel('position(cm)')
 ```
 
 
-![figure_4.png](2021-07-11-Gaussian-filter_images/figure_4.png)
+![figure4.png](2021-07-11-Gaussian-filter_images/figure_4.png)
 
 ## Invere gaussian filter
 
@@ -97,7 +97,7 @@ ylim([0 1.2]);xlabel('freqency(herz)');
 ```
 
 
-![figure_5.png](2021-07-11-Gaussian-filter_images/figure_5.png)
+![figure5.png](2021-07-11-Gaussian-filter_images/figure_5.png)
 
 
 ```matlab:Code
@@ -106,7 +106,7 @@ invergaussF(x,[0.357 5.5],1,0.1e3);
 ```
 
 
-![figure_6.png](2021-07-11-Gaussian-filter_images/figure_6.png)
+![figure6.png](2021-07-11-Gaussian-filter_images/figure_6.png)
 
 ## spectrogram
 
