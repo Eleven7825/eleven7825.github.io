@@ -6,53 +6,7 @@ category: AMLSH
 ---
 
 
-## Sample rate: 60 frames per second
-
-
-
-```
-load xy585.mat
-```
-
-
-
-On the vertical direction:
-
-
-
-```
-plot(t,x); xlabel('time(s)');ylabel('Displacement(cm)')
-```
-
-
-![figure0.png](./2021-07-11-Gaussian-filter_images/figure0.png)
-
-
-
-On the horizontal direction:
-
-
-
-```
-plot(t,y); xlabel('time(s)');ylabel('Displacement(cm)')
-```
-
-
-![figure1.png](./2021-07-11-Gaussian-filter_images/figure1.png)
-
-
-
-How does the data sound like?
-
-
-
-```
-soundsc(x,5000);
-```
-
-
-
-After fourier transformation:
+## After fourier transformation:
 
 
 
