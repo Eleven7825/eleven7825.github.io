@@ -87,9 +87,6 @@ gaussianF(y,1e2); xlabel('time(s)');ylabel('position(cm)')
 
 ## Invere gaussian filter
 
-<img src="https://latex.codecogs.com/gif.latex?\left(1-\exp&space;\left(-\frac{{\left(x-c\right)}^2&space;}{\sigma^2&space;}\right)\right)"/>$$\left(1-\exp \left(-\frac{{\left(x+c\right)}^2 }{\sigma^2 }\right)\right)$$
-
-
 ```
 c = 5;
 sigma = 1;
