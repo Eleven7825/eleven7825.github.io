@@ -16,7 +16,7 @@ category: AMLSH
 
 ## Candy installation
 1. Install the copper wire first, don't screw the upper screw tight!
-2. Use the thumb and index finger to hold the lower screw of the wire, use the other hand to screw the candy on the lower screw, notice the wire should be tighten at this time.
+2. Use the thumb and index finger to hold the lower screw of the wire, use the other hand to screw the candy on the lower screw, notice the wire should have some force on it to keep it straight.
 
 ## Finding appropriate location for lift platform
 1. Make sure the water level of the container is low enough so that the candy won't touch the water when testing.
