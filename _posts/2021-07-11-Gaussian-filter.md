@@ -3,6 +3,7 @@ title:  "Gaussian filter - with Matlab example"
 mathjax: true
 author: Eleven Chen
 category: AMLSH
+---
 
 
 Sample rate: 60 frames per second
