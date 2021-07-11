@@ -25,7 +25,7 @@ plot(t,x); xlabel('time(s)');ylabel('Displacement(cm)')
 ```
 
 
-![figure0.png](2021-07-11-Gaussian-filter_images/figure0.png)
+![figure0.png](./2021-07-11-Gaussian-filter_images/figure0.png)
 
 
 
@@ -38,7 +38,7 @@ plot(t,y); xlabel('time(s)');ylabel('Displacement(cm)')
 ```
 
 
-![figure1.png](2021-07-11-Gaussian-filter_images/figure1.png)
+![figure1.png](./2021-07-11-Gaussian-filter_images/figure1.png)
 
 
 
@@ -63,7 +63,7 @@ xlabel('freqency(herz)');
 ```
 
 
-![figure2.png](2021-07-11-Gaussian-filter_images/figure2.png)
+![figure2.png](./2021-07-11-Gaussian-filter_images/figure2.png)
 
 ## Gassian filter
 
@@ -74,7 +74,7 @@ plot(k,exp(-0.5*abs(k).^2/sigma^2));xlabel('freqency(herz)');
 ```
 
 
-![figure3.png](2021-07-11-Gaussian-filter_images/figure3.png)
+![figure3.png](./2021-07-11-Gaussian-filter_images/figure3.png)
 
 
 ```
@@ -83,7 +83,7 @@ gaussianF(y,1e2); xlabel('time(s)');ylabel('position(cm)')
 ```
 
 
-![figure4.png](2021-07-11-Gaussian-filter_images/figure4.png)
+![figure4.png](./2021-07-11-Gaussian-filter_images/figure4.png)
 
 ## Invere gaussian filter
 
@@ -95,7 +95,7 @@ ylim([0 1.2]);xlabel('freqency(herz)');
 ```
 
 
-![figure5.png](2021-07-11-Gaussian-filter_images/figure5.png)
+![figure5.png](./2021-07-11-Gaussian-filter_images/figure5.png)
 
 
 ```
@@ -104,7 +104,7 @@ invergaussF(x,[0.357 5.5],1,0.1e3);
 ```
 
 
-![figure6.png](2021-07-11-Gaussian-filter_images/figure6.png)
+![figure6.png](./2021-07-11-Gaussian-filter_images/figure6.png)
 
 ## spectrogram
 
