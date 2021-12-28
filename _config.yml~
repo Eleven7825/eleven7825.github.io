@@ -23,7 +23,7 @@ navigation:
 
 
 external:                  # see http://fontawesome.com/icons
-  - {title: Github, icon: github, "https://github.com/Eleven7825"}
+  - {title: Github, icon: github, url: "https://github.com/Eleven7825"}
   - {title: Linkedin, url: "https://www.linkedin.com/in/eleven-chen-388250196/"}
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
