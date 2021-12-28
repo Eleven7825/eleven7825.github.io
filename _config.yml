@@ -17,13 +17,13 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 navigation:
   # - {title: "Resume", url: "/Resume_Eleven.pdf", icon: home}
-  # - {title: "Course projects", file: "course_projects.md"}
+  - {title: "Projects", url: "/projects"}
   - {title: "Posts", file: "blog.md"}
   - {title: "gallery", url: "/gallery"}
 
 
 external:                  # see http://fontawesome.com/icons
-  - {title: Github, icon: github, "https://github.com/Eleven7825"}
+  - {title: Github, icon: github, url: "https://github.com/Eleven7825"}
   - {title: Linkedin, url: "https://www.linkedin.com/in/eleven-chen-388250196/"}
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
