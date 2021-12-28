@@ -2,7 +2,7 @@
 layout: page
 title:  "Past Mini Projects"
 mathjax: true
-permalink: "/projects/"
+permalink: "/project/"
 author: Eleven Chen
 ---
 
