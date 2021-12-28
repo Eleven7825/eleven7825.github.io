@@ -6,6 +6,7 @@ author: Eleven Chen
 ---
 
 ##A Model to Predict the Maximum Car Speed in the Rain
+
 The speed that a car can maintain on rainy days
 depends on many factors. This project will first introduce a model to quantify
 the visibility of the driver using the ratio between the surface area of all
