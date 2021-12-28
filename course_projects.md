@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title:  "Past Mini Projects"
 mathjax: true
-style: default
+permalink: "/projects/"
 author: Eleven Chen
 ---
 
