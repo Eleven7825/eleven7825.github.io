@@ -3,8 +3,9 @@ layout: page
 title: "Welcome to my home page"
 ---
 
-Hello, I am a junior undergraduate student majored in Honors Mathmematics. I am also a member of Applied Math Lab at NYU Shanghai. Currently, I am working on a project on material dissolving and natural circulation. We are seeking for a model to explain the periodic flow structure as we found during our previous experiment.
+Hello, this is Eleven Chen from NYU Shanghai. Currently, I am studying away in New York City. My major is Honors Mathematics. Math modeling and Simulation are my favorite while I have also done some experimental physics projects in lab before.
 
-Besides a student, I am also a rock climber. If you are Shanghai and also a climber, you are more than welcomed to contact me to team up and climb some crazy routes, either gym or near by crags. Rope and quickdraws provided!
+I am also a backpacker, sport climber(really want to try trad though...), and skateboarder. Open to new friends from all over the world!
 
-My email adress: sc7825@nyu.edu
+Email: sc7825@nyu.edu
+Ins: eleven7825
