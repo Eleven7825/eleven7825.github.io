@@ -17,7 +17,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 navigation:
   # - {title: "Resume", url: "/Resume_Eleven.pdf", icon: home}
-  - {title: "Course projects", file: "course_projects.md"}
+  - {title: "Course projects", url: "/projects"}
   - {title: "Posts", file: "blog.md"}
   - {title: "gallery", url: "/gallery"}
 
