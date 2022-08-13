@@ -2,12 +2,70 @@
 layout: default
 ---
 <article>
-  <header><h1><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1></header>
-  <h2> A DEMONSTRATION OF PARAMETRIC RESONANCE </h2>
-  <p> In this project, we demonstrate the parametric resonance of a 2D elastic ring using the existing implementation of immersed boundary method. The ring is constructed using the zero-length Hookean springs, the ring is immersed in a square domain of fluid. This setup is analogous to a three-dimensional water balloon immersed in water. As for the dimension of the setup, the size of the square is 1 cm times 1 cm, the size of the fingernail. The boundary of the square is periodic, meaning that water flowing up out of the domain will flow into the domain in the bottom again. Similar for the left and right.</p>
+<header><h1>Projects</h1></header>
+  
+<h2> A DEMONSTRATION OF PARAMETRIC RESONANCE </h2>
+<p> In this project, we demonstrate the parametric resonance of a 2D elastic ring using the existing implementation of immersed boundary method. The ring is constructed using the zero-length Hookean springs, the ring is immersed in a square domain of fluid. This setup is analogous to a three-dimensional water balloon immersed in water. As for the dimension of the setup, the size of the square is 1 cm times 1 cm, the size of the fingernail. The boundary of the square is periodic, meaning that water flowing up out of the domain will flow into the domain in the bottom again. Similar for the left and right.</p>
 <video width = 300 height=300 controls autoplay loop src="https://eleven7825.github.io//index_files/8.mp4" type="video/mp4">
 </video>
 
 <video width = 300 height=300 controls autoplay loop src="https://eleven7825.github.io//index_files/k_const.mp4" type="video/mp4">
 </video>
+
+<h2> SIMULATIONS ON ADAPTED THOMSON PROBLEM WITH DIFFERENT FRAMES </h2>
+<p>
+Thomson's problem is determined the ground state of N electric charges on constrained in a sphere shell given the repelling effect given by Coulomb's law. By comparing the simulation result and continuum theory, M. Bowick et al. find out the crystalline structure in the ground state for the Thomson problem. In the meanwhile, Y. Levin and J. J. Arenzon generalized the Thomson problem replacing the sphere shell with a sphere. They found that with a small amount of charge, the charges are likely to go to the surface while for a large amount of charge, there are some charges that stay in the middle of the sphere. Our work includes the two-dimensional simulation on the Thomson problem and the three-dimensional simulation on the generalized Thomson problem. While the original Thomson problem assumes on a sphere shell which is a two-dimensional object, we explore the 2d square frame set up. For 3d simulation, the charges are allowed to move inside of the sphere.
+</p>
+
+<video width="400" height="297" controls autoplay loop>
+  <source src="https://eleven7825.github.io//index_files/Dr_5e-02_q0_1e-08.mp4" type="video/mp4">
+</video>&nbsp;&nbsp;&nbsp;<video width="250" height="297" controls autoplay loop>
+  <source src="https://eleven7825.github.io//index_files/Dr_1e-01_q0_1e-07_scaled.mp4" type="video/mp4">
+</video>
+<video width="640" height="480" controls autoplay loop>
+  <source src="https://eleven7825.github.io//index_files/Dr_0.1_rotate.mp4" type="video/mp4">
+</video>
+
+<h2>AN IMPLEMENTATION OF BACKWARD EULER'S METHOD ON SPRING SYSTEM</h2>
+<p>In this project, Backward Euler's method and Forward Euler's method have been implemented and compared in the simulation of the spring system. Forward Euler's method is easier to implement than Backward Euler's method. However, when the stiffness of the spring becomes larger, the method breaks down. Although the Backward Euler's method is harder to implement, it provides ultra stability which can deal with stiffer springs.</p>
+
+<h2>A SIMPLE SIMULATION FOR MANHATTAN TRAFFIC</h2>
+<p>In this project, a simple traffic grid is built to mimic the traffic system at Manhattan in New York City. Manhattan has 214 numbered streets and 11 numbered avenues. The streets go in the East-West direction while the avenues go from South-North. The directions here are all aligned with the Hudson River. In real Manhattan, some streets and avenues can go in both directions. To simplify the problem, only alternating direction one-way streets and avenues are considered. The motivation of this project is to have a descriptive model to the Manhattan traffic flow and some qualitative insights about the capacity of the grid system.</p>
+
+<img width=317 height=229 id="figure_5.png" src="https://eleven7825.github.io//index_files/image003.gif">
+<video width = 307 height=229 controls autoplay loop>
+	<source src="https://eleven7825.github.io//index_files/rate=0.300000.mp4" type="video/mp4">
+</video>
+
+<h2>COMPARISON BETWEEN NON-DETERMINISTIC MODEL AND DETERMINISTIC MODEL FOR MALARIA AND SICKLE-CELL HEMOGLOBIN GENE</h2>
+<p>In this project, I explore the long-term behavior of the Sickle-Cell gene and malaria. I first introduce the mathematical model and its implementation in MATLAB. The model has two versions-the deterministic version and the non-deterministic version. I find that with the default value for initial susceptible, infected and resistant, the deterministic model and the non-deterministic model have similar behavior while behave differently when the initial infected population is small. Moreover, as the infection rate of malaria gets larger, the ratio of resistant to malaria also gets larger as the result of natural selection.</p>
+
+<img border=0 width=324 height=274 id="figure_8.png" src="https://eleven7825.github.io//index_files/image004.gif">&nbsp;&nbsp;
+<img border=0 width=348 height=273 id="figure_13-2.png"
+src="https://eleven7825.github.io//index_files/image005.gif">
+
+<h2>SIMULATED FUNGI DECOMPOSITION SYSTEM</h2>
+<p>In order to incorporate the fluctuations of the environment into our model, we design the Environment Fungi Coefficient Abstraction (EFCA) to quantify the impact of PH, temperature, moisture and light intensity to the fungus communities. We set up the environment index to precisely determine the growth rate, death rate and decomposition rate of the specific fungus community. Based on biological knowledge and mathematical principles, we justify the functions we choose for the three rates are suitable through data fitting and error testing using MATLAB tool packages.</p>
+
+<video width="533" height="380" controls autoplay loop>
+  <source src="https://eleven7825.github.io//index_files/decompose.mp4" type="video/mp4">
+</video>
+
+<h2>A MODEL TO PREDICT THE MAXIMUM CAR SPEED IN THE RAIN</h2>
+<p>The speed that a car can maintain on rainy days depends on many factors. This project will first introduce a model to quantify the visibility of the driver using the ratio between the surface area of all raindrops on windshield and the area of the windshield. In addition to driver's comfortability of visibility, we also take the sudden brake, sleep-deprived driving, road condition and light change, into the safe speed consideration. In this project, we build a model to compute the safe speed of the car under real-life considerations by combining mathematical and physical knowledge to provide a concrete and useful insight into this problem.</p>
+
+</video>&nbsp;&nbsp;&nbsp;<video width="515" height="260" controls loop autoplay>
+  <source src="https://eleven7825.github.io//index_files/v_0_f_0.5_Rf_0.01.mp4" type="video/mp4">
+</video>
+
+<h2>A FLOP COUNT TOOL WITH AN EXAMPLE IN PLU FACTORIZATION</h2>
+<p>We develop a new flop tool which can help to count floating-point operation(flops) in MATLAB/GNU Octave. The first two sections describe the flops and PLU factorization. In the following sections, we introduce the PLU factorization - a method for solving linear equations. We discuss several possible ways to count flops on a PLU factorization script in MATLAB/Octave. One way we tried is using the flop tool developed by Hang Qian. Although his tool does not give us the correct result due to its limitation on counting operations involving varying variable sizes, his code gives the flop count formulas we needed in developing the new tool. Our new tool is compatible with GNU Octave and it is licensed under GNU LGPL.</p>
+
+<h2>AN OVERVIEW ON LINEAR SOLVERS</h2>
+<p>The Conjugate Gradient Method (CG) is a prevalent method for solving linear systems. In this report, we include a self-contained description of CG and Steepest Descent (SD) without introducing Krylov space. We also describe the preconditioning and its application on CG (PCG). We then compare SD, CG, PCG by considering their iterations. We find that due to roundoff error, the iteration number can go beyond the theoretical upper bound for SD. Finally, we compare those gradient methods with PLU factorization. The resulting linear solver is given in the conclusion part.</p>
+<img border=0 width=731 height=299
+id="big_plot-eps-converted-to-1536x661.png" src="https://eleven7825.github.io//index_files/image011.gif">
+
+<h2>FINDING FEW LARGEST EIGENVALUES</h2>
+<p>Power Method (PM) allows us to find the largest eigenvalue of real square matrices. By changing the algorithm of PM, the resulting algorithm - Inverse Power Method (IPM) enables us to find the eigenvalues other than the largest one. In this report, we firstly describe the IPM and code it in MATLAB/Octave. To test the new function of IPM, we elaborate on how IPM allows us to find eigenvalues closest to a point for symmetric matrices. We then move on to elaborate on how we find the few largest eigenvalues for symmetric matrices using the IPM and the searching scheme we devised. The method succeeded in finding all the 10 largest eigenvalues of 30 by 30 random symmetric positive matrices in 98.4% sampled randomly.</p>
 </article>
