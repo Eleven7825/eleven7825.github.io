@@ -1,6 +1,6 @@
 title: "陈拾遗 Shiyi Eleven Chen"
 author: "陈拾遗 Shiyi Eleven Chen"
-description: "New York University Shanghai"
+description: "Code, create, conquer"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -16,9 +16,9 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:
-  # - {title: "Resume", url: "/Resume_Eleven.pdf", icon: home}
+  - {title: "CV", url: "/Resume_Eleven.pdf", icon: home}
   - {title: "Course projects", url: "/projectpage"}
-  - {title: "Posts", file: "blog.md"}
+  #- {title: "Posts", file: "blog.md"}
   - {title: "gallery", url: "/gallery"}
 
 
