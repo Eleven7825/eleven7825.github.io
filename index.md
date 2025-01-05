@@ -8,4 +8,4 @@ My passions lie in math modeling, simulation, and computational biology, you can
 When I'm not working on projects, you can find me hiking, camping, climbing, or skateboarding. I'm always up for meeting new people and making friends from all over the world!
 
 Email: [shiyic61@gmail.com](shiyic61@gmail.com)
-Github: [github.com/Eleven7825](github.com/Eleven7825)
+Github: [github.com/Eleven7825](https://github.com/Eleven7825)
